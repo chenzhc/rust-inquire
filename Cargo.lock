@@ -757,6 +757,7 @@ dependencies = [
  "crossterm",
  "dyn-clone",
  "fuzzy-matcher",
+ "tempfile",
  "unicode-segmentation",
  "unicode-width 0.2.1",
 ]
@@ -1200,6 +1201,7 @@ checksum = "caf4aa5b0f434c91fe5c7f1ecb6a5ece2130b02ad2a590589dda5146df959001"
 name = "rust-inquire"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "colorize",
  "csv",
  "dotenv",
@@ -1455,6 +1457,19 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
+]
+
+[[package]]
+name = "tempfile"
+version = "3.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "84fa4d11fadde498443cca10fd3ac23c951f0dc59e080e9f4b93d4df4e4eea53"
+dependencies = [
+ "fastrand",
+ "getrandom",
+ "once_cell",
+ "rustix",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]

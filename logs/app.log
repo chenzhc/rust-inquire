@@ -1,0 +1,30 @@
+2025-09-17 21:19:55 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:20:01 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:20:18 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:20:23 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:20:53 INFO  rust_inquire src/main.rs:11 - Error occurred while checking if to procced
+2025-09-17 21:20:53 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:20:55 INFO  rust_inquire src/main.rs:11 - Error occurred while checking if to procced
+2025-09-17 21:20:55 INFO  rust_inquire src/main.rs:14 - User selected to proceed with application 
+2025-09-17 21:21:51 INFO  rust_inquire src/main.rs:15 - User selected to proceed with application 
+2025-09-17 21:23:08 INFO  rust_inquire src/main.rs:17 - [33mUser is not okay with proceeding[0;39;49m
+2025-09-17 21:55:37 INFO  rust_inquire src/main.rs:23 - Your player name is: [33mTrevor[0;39;49m
+2025-09-17 21:56:17 INFO  rust_inquire src/main.rs:23 - Your player name is: [33m2[0;39;49m
+2025-09-17 21:57:03 INFO  rust_inquire src/main.rs:23 - Your player name is: [33mtest[0;39;49m
+2025-09-17 22:15:46 INFO  rust_inquire src/main.rs:42 - Error with player name: Operation was interrupted by the user
+2025-09-17 22:15:51 INFO  rust_inquire src/main.rs:41 - Your player name is: [33mTeaf[0;39;49m
+2025-09-17 22:15:59 INFO  rust_inquire src/main.rs:42 - Error with player name: Operation was interrupted by the user
+2025-09-17 22:18:05 INFO  rust_inquire src/main.rs:41 - Your player name is: [33mTest[0;39;49m
+2025-09-17 22:26:26 INFO  rust_inquire src/main.rs:33 - You selected the player class [33mWarrior[0;39;49m
+2025-09-17 22:32:31 INFO  rust_inquire src/main.rs:37 - You selected the player class "\u{1b}[33mDruid\u{1b}[0;39;49m"
+2025-09-17 22:32:31 INFO  rust_inquire src/main.rs:37 - You selected the player class "\u{1b}[33mCleric\u{1b}[0;39;49m"
+2025-09-17 22:32:45 INFO  rust_inquire src/main.rs:37 - You selected the player class [33mDruid[0;39;49m
+2025-09-17 22:32:45 INFO  rust_inquire src/main.rs:37 - You selected the player class [33mCleric[0;39;49m
+2025-09-17 22:32:45 INFO  rust_inquire src/main.rs:37 - You selected the player class [33mArcher[0;39;49m
+2025-09-17 22:32:45 INFO  rust_inquire src/main.rs:37 - You selected the player class [33mWarrior[0;39;49m
+2025-09-17 22:32:45 INFO  rust_inquire src/main.rs:37 - You selected the player class [33mWizard[0;39;49m
+2025-09-17 22:39:54 INFO  rust_inquire src/main.rs:28 - You selected 2025-09-17
+2025-09-17 22:40:22 INFO  rust_inquire src/main.rs:28 - You selected 2025 month: 09 day: 17
+2025-09-17 22:46:26 INFO  rust_inquire src/main.rs:35 - You selected 2025 month: 09 day: 17
+2025-09-17 22:48:44 INFO  rust_inquire src/main.rs:42 - You selected 2025 month: 09 day: 17
+2025-09-17 22:48:49 INFO  rust_inquire src/main.rs:25 - Player { name: "T232r", classes: ["Druid", "Cleric", "Archer", "Warrior", "Wizard"], birth_date: 2025-09-17 }
