@@ -5,25 +5,131 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
+use std::sync::Mutex;
+
+use actix_web::{body, get, post, web, App, HttpResponse, HttpServer, Responder};
 use chrono::NaiveDate;
 use colorize::AnsiColor;
 use inquire::{validator::{ErrorMessage, Validation}, CustomUserError, DateSelect, MultiSelect, Select};
 use log::info;
 
-fn main() {
-    rust_inquire::init();
-    // println!("{}", );
-    // prompt_text();
-    // prompt_select();
-    // prompt_multiselect();
-    let player = Player {
-        name: prompt_text(),
-        birth_date: prompt_date(),
-        classes: prompt_multiselect(),
-    };
+#[derive(Debug, serde::Deserialize, serde::Serialize)]
+struct PathParams {
+    name: String,
+    id: String,
+    email: String,
+}
 
-    info!("{:?}", player);
-    
+#[derive(Debug, serde::Deserialize, serde::Serialize)]
+struct UserModel {
+    firstname: String,
+    lastname: String,
+    password: String,
+    email: String,
+}
+
+#[derive(Debug, serde::Deserialize, serde::Serialize)]
+struct LoginReq {
+    password: String,
+    email: String,
+}
+
+#[derive(Debug, serde::Serialize, serde::Deserialize)]
+struct AppState {
+    state: Mutex<String>,
+}
+
+
+#[post("/login")]
+async fn login(app_data: web::Data<AppState>,
+    req: web::Json<LoginReq>) -> impl Responder {
+    let mut state = app_data.state.lock().unwrap();
+    *state = "login".to_string();
+    info!("the current app state is {}", *state);
+    info!("your credentials are {:?}", req);
+    HttpResponse::Ok().body("Hello login")
+}
+
+#[get("/logout/{name}")]
+async fn logout(name: web::Path<String>) -> impl Responder {
+    let resp_msg = format!("Hello {name}, test322 you have been logged out!");
+    HttpResponse::Ok().body(resp_msg)
+}
+
+#[get("/user/{name}/{id}/{email}")]
+async fn fetch_user(app_data: web::Data<AppState>,
+    path: web::Path<PathParams>) -> impl Responder {
+    let state = app_data.state.lock().unwrap();
+    info!("the current app state is: {}", state);
+
+    let name = &path.name;
+    let id = &path.id;
+    let email = &path.email;
+    let resp_msg = format!("Hello {name}, user id {id} and email {email}  you have been fetched!");
+    HttpResponse::Ok().body(resp_msg)
+}
+
+
+#[get("/user")]
+async fn get_user(path: web::Query<PathParams>) -> impl Responder {
+    let name = &path.name;
+    let id = &path.id;
+    let email = &path.email;
+    let resp_msg = format!("Hello {name}, user id {id} and email {email}  you have been fetched!");
+    HttpResponse::Ok().body(resp_msg)
+}
+
+#[post("/user/register")]
+async fn register(user: web::Either<web::Json<UserModel>, web::Form<UserModel>>) -> impl Responder {
+    let resp_msg = format!("Hello {:?}, test322 you have been register!", user);
+    HttpResponse::Ok().body(resp_msg)
+}
+
+#[get("/")]
+async fn hello() -> impl Responder {
+    HttpResponse::Ok().body("Hello world")
+}
+
+#[post("/echo")]
+async fn echo(req_body: String) -> impl Responder {
+    HttpResponse::Ok().body(req_body)
+}
+
+async fn manual_hello() -> impl Responder {
+    HttpResponse::Ok().body("Hey there!")
+}
+
+
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()>{
+    rust_inquire::init();
+
+    info!("test");
+
+    let data = web::Data::new(AppState{
+        state: Mutex::new(String::from("init-state"))
+    });
+
+    HttpServer::new(move ||{
+        App::new()
+            .app_data(data.clone())
+            .service(
+                web::scope("/auth")
+                    .service(login)
+                    .service(logout)
+                    .service(fetch_user)
+                    .service(get_user)
+                    .service(register)
+            )
+            .service(hello)
+            .service(echo)
+            .route("/hey", web::get().to(manual_hello))
+    })
+    .bind("0.0.0.0:9000")?
+    // .bind("0.0.0.0", 9000)?
+    .run()
+    .await
 }
 
 #[derive(Debug)]

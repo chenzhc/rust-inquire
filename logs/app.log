@@ -28,3 +28,413 @@
 2025-09-17 22:46:26 INFO  rust_inquire src/main.rs:35 - You selected 2025 month: 09 day: 17
 2025-09-17 22:48:44 INFO  rust_inquire src/main.rs:42 - You selected 2025 month: 09 day: 17
 2025-09-17 22:48:49 INFO  rust_inquire src/main.rs:25 - Player { name: "T232r", classes: ["Druid", "Cleric", "Archer", "Warrior", "Wizard"], birth_date: 2025-09-17 }
+2025-09-21 20:56:17 INFO src/main.rs:16 - test
+2025-09-21 21:05:37 INFO src/main.rs:34 - test
+2025-09-21 21:05:37 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:05:37 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:05:37 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:06:08 INFO src/main.rs:34 - test
+2025-09-21 21:06:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:06:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:06:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:13:14 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:16:24 INFO src/main.rs:45 - test
+2025-09-21 21:16:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:16:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:16:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:45:51 INFO src/main.rs:45 - test
+2025-09-21 21:45:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:45:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:45:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:47:19 INFO src/main.rs:46 - test
+2025-09-21 21:47:19 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:47:19 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:47:19 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:48:34 INFO src/main.rs:46 - test
+2025-09-21 21:48:34 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:48:34 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:48:34 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:50:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 21:59:58 INFO src/main.rs:46 - test
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:59:58 INFO src/main.rs:46 - test
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:59:58 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 21:59:59 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:342 - SIGTERM received; starting graceful shutdown
+2025-09-21 21:59:59 INFO src/main.rs:46 - test
+2025-09-21 21:59:59 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 21:59:59 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 21:59:59 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:00 INFO src/main.rs:46 - test
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:00 INFO src/main.rs:46 - test
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:01 INFO src/main.rs:46 - test
+2025-09-21 22:00:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:342 - SIGTERM received; starting graceful shutdown
+2025-09-21 22:00:02 INFO src/main.rs:46 - test
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:02 INFO src/main.rs:46 - test
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:03 INFO src/main.rs:46 - test
+2025-09-21 22:00:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:04 INFO src/main.rs:46 - test
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:04 INFO src/main.rs:46 - test
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:00:04 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:00:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-21 22:09:15 INFO src/main.rs:46 - test
+2025-09-21 22:09:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:09:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:09:15 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:10:03 INFO src/main.rs:46 - test
+2025-09-21 22:10:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:10:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:10:03 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:10:16 INFO src/main.rs:46 - test
+2025-09-21 22:10:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:10:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:10:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:10:47 INFO src/main.rs:46 - test
+2025-09-21 22:10:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:10:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:10:47 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:10:48 INFO src/main.rs:46 - test
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:10:48 INFO src/main.rs:46 - test
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:10:48 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:16:16 INFO src/main.rs:46 - test
+2025-09-21 22:16:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:16:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:16:16 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:16:26 INFO src/main.rs:46 - test
+2025-09-21 22:16:26 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:16:26 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:16:26 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:16:38 INFO src/main.rs:46 - test
+2025-09-21 22:16:38 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:16:38 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:16:38 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:26:18 INFO src/main.rs:52 - test
+2025-09-21 22:26:18 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:26:18 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:26:18 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:26:41 INFO src/main.rs:52 - test
+2025-09-21 22:26:41 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:26:41 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:26:41 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:27:09 INFO src/main.rs:52 - test
+2025-09-21 22:27:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:27:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:27:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:29:25 INFO src/main.rs:54 - test
+2025-09-21 22:29:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:29:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:29:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:29:39 INFO src/main.rs:54 - test
+2025-09-21 22:29:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:29:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:29:39 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:32:09 INFO src/main.rs:61 - test
+2025-09-21 22:32:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:32:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:32:09 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:32:52 INFO src/main.rs:61 - test
+2025-09-21 22:32:52 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:32:52 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:32:52 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 22:39:17 INFO src/main.rs:62 - test
+2025-09-21 22:39:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 22:39:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 22:39:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:22:06 INFO src/main.rs:72 - test
+2025-09-21 23:22:06 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:22:06 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:22:06 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:22:44 INFO src/main.rs:72 - test
+2025-09-21 23:22:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:22:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:22:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:22:49 INFO src/main.rs:72 - test
+2025-09-21 23:22:49 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:22:49 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:22:49 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:27:10 INFO src/main.rs:80 - test
+2025-09-21 23:27:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:27:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:27:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:27:32 INFO src/main.rs:80 - test
+2025-09-21 23:27:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:27:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:27:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:28:08 INFO src/main.rs:87 - test
+2025-09-21 23:28:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:28:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:28:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:28:32 INFO src/main.rs:87 - test
+2025-09-21 23:28:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:28:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:28:32 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:29:00 INFO src/main.rs:88 - test
+2025-09-21 23:29:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:29:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:29:00 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:30:25 INFO src/main.rs:38 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:32:54 INFO src/main.rs:93 - test
+2025-09-21 23:32:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:32:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:32:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:34:08 INFO src/main.rs:95 - test
+2025-09-21 23:34:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:34:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:34:08 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:37:07 INFO src/main.rs:95 - test
+2025-09-21 23:37:07 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:37:07 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:37:07 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:39:27 INFO src/main.rs:98 - test
+2025-09-21 23:39:27 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:39:27 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:39:27 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:40:02 INFO src/main.rs:99 - test
+2025-09-21 23:40:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:40:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:40:02 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:40:46 INFO src/main.rs:99 - test
+2025-09-21 23:40:46 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:40:46 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:40:46 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:40:49 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:40:49 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:40:51 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:40:51 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:40:52 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:40:52 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:42:54 INFO src/main.rs:103 - test
+2025-09-21 23:42:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:42:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:42:54 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:42:56 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:42:56 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:43:36 INFO src/main.rs:103 - test
+2025-09-21 23:43:36 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:43:36 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:43:36 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:44:05 INFO src/main.rs:103 - test
+2025-09-21 23:44:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:44:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:44:05 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:44:09 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:44:09 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:44:43 INFO src/main.rs:103 - test
+2025-09-21 23:44:43 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:44:43 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:44:43 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:44:46 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:44:46 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:45:01 INFO src/main.rs:103 - test
+2025-09-21 23:45:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:45:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:45:01 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:45:05 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:45:05 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:45:24 INFO src/main.rs:104 - test
+2025-09-21 23:45:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:45:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:45:24 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:45:28 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:45:28 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:46:49 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:49 INFO src/main.rs:64 - test
+2025-09-21 23:46:50 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:50 INFO src/main.rs:64 - test
+2025-09-21 23:46:50 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:50 INFO src/main.rs:64 - test
+2025-09-21 23:46:51 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:51 INFO src/main.rs:64 - test
+2025-09-21 23:46:51 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:51 INFO src/main.rs:64 - test
+2025-09-21 23:46:52 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:52 INFO src/main.rs:64 - test
+2025-09-21 23:46:52 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:52 INFO src/main.rs:64 - test
+2025-09-21 23:46:52 INFO src/main.rs:63 - the test current app state is: login
+2025-09-21 23:46:52 INFO src/main.rs:64 - test
+2025-09-21 23:47:17 INFO src/main.rs:103 - test
+2025-09-21 23:47:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:47:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:47:17 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:47:19 INFO src/main.rs:48 - the current app state is login
+2025-09-21 23:47:19 INFO src/main.rs:49 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-21 23:47:21 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:47:22 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:47:23 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:47:23 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:47:23 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:47:23 INFO src/main.rs:63 - the current app state is: login
+2025-09-21 23:49:25 INFO src/main.rs:108 - test
+2025-09-21 23:49:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:49:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:49:25 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:50:45 INFO src/main.rs:108 - test
+2025-09-21 23:50:45 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:50:45 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:50:45 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:50:57 INFO src/main.rs:108 - test
+2025-09-21 23:50:57 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:50:57 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:50:57 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:52:10 INFO src/main.rs:108 - test
+2025-09-21 23:52:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:52:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:52:10 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-21 23:54:53 INFO src/main.rs:108 - test
+2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
