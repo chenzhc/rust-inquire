@@ -438,3 +438,22 @@
 2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
 2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
 2025-09-21 23:54:53 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-22 20:57:29 INFO src/main.rs:23 - test
+2025-09-22 20:57:29 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-22 20:57:29 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-22 20:57:29 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-22 20:57:38 INFO src/handlers/public/login.rs:11 - the current app state is login
+2025-09-22 20:57:38 INFO src/handlers/public/login.rs:12 - your credentials are Json(LoginReq { password: "pwdtest", email: "tess@email.com" })
+2025-09-22 20:57:43 INFO src/api/auth.rs:19 - the current app state is: login
+2025-09-22 21:06:44 INFO src/main.rs:23 - test
+2025-09-22 21:06:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-22 21:06:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-22 21:06:44 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-22 21:46:51 INFO src/main.rs:23 - test
+2025-09-22 21:46:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-22 21:46:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-22 21:46:51 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-23 07:59:50 INFO src/main.rs:23 - test
+2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000

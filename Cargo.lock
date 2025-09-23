@@ -1762,6 +1762,7 @@ dependencies = [
  "chrono",
  "colorize",
  "csv",
+ "derive_more",
  "dotenv",
  "dotenvy",
  "futures",
