@@ -457,3 +457,39 @@
 2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
 2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
 2025-09-23 07:59:50 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-24 07:09:23 INFO src/main.rs:22 - test
+2025-09-24 07:09:23 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/builder.rs:310 - starting 16 workers
+2025-09-24 07:09:23 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:191 - Actix runtime found; starting in Actix runtime
+2025-09-24 07:09:23 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:197 - starting service: "actix-web-service-0.0.0.0:9000", workers: 16, listening on: 0.0.0.0:9000
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/server.rs:333 - SIGINT received; starting forced shutdown
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/accept.rs:143 - accept thread stopped
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:09:31 INFO /home/user/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/actix-server-2.6.0/src/worker.rs:593 - shutting down idle worker
+2025-09-24 07:14:15 INFO src/main.rs:23 - test
+2025-09-24 07:27:59 INFO src/main.rs:23 - test
+2025-09-24 07:28:17 INFO src/main.rs:23 - test
+2025-09-24 07:36:35 INFO tests/test_env.rs:18 - localhost
+2025-09-24 07:44:26 INFO src/main.rs:25 - test
+2025-09-24 07:44:53 INFO src/main.rs:25 - test
+2025-09-24 07:44:58 INFO src/main.rs:25 - test
+2025-09-24 07:46:52 INFO src/main.rs:24 - database url string is: mysql://root:123456@localhost:3306/navi_cloud_sinognss
+2025-09-24 07:46:52 INFO src/main.rs:26 - test
+2025-09-24 07:58:48 INFO src/main.rs:25 - database url string is: postgres://postgres:123456@localhost:5432/tables
+2025-09-24 07:59:13 INFO src/main.rs:25 - database url string is: postgres://postgres:123456@localhost:5432/tables
+2025-09-24 07:59:47 INFO src/main.rs:25 - database url string is: postgres://postgres:123456@localhost:5432/postgres
+2025-09-24 07:59:47 INFO src/main.rs:27 - Connected to the database!
+2025-09-24 07:59:47 INFO src/main.rs:29 - test

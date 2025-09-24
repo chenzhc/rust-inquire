@@ -5,10 +5,11 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::sync::Mutex;
-
+use std::{env, sync::Mutex};
 use actix_web::{web, App, HttpServer};
-use log::info;
+use sqlx::PgPool;
+use tracing::{debug, info, Level};
+use tracing_subscriber::FmtSubscriber;
 use crate::{api::{auth::get_auth_services, public::{echo, get_public_services, hello, manual_hello}}, models::state::AppState};
 mod api;
 mod handlers;
@@ -19,12 +20,24 @@ mod utils;
 #[actix_web::main]
 async fn main() -> std::io::Result<()>{
     rust_inquire::init();
+    
+    let conn = env::var("DATABASE_URL").expect("the database url string was not set");
+    info!("database url string is: {}", conn);
+    let pool = PgPool::connect(&conn).await.unwrap();
+    info!("Connected to the database!");
 
     info!("test");
+    let subscriber = FmtSubscriber::builder()
+        .with_max_level(Level::INFO)
+        .finish();
+    let _ = tracing::subscriber::set_global_default(subscriber)
+        .expect("error setting global subscriber for tracing");
 
     let data = web::Data::new(AppState{
         state: Mutex::new(String::from("init-state"))
     });
+    info!("starting server at port: {}", 9000);
+    debug!("test");
 
     HttpServer::new(move ||{
         App::new()
