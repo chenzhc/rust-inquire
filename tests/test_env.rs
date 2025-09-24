@@ -7,8 +7,8 @@
 
 use std::{env, sync::{Arc}};
 use log::info;
-use rust_inquire::init;
-use sqlx::{mysql::MySqlPool, Executor};
+use rust_inquire::{init, utils};
+use sqlx::{database, mysql::MySqlPool, Executor};
 use tokio::sync::Mutex;
 
 #[test]
@@ -138,6 +138,60 @@ async fn it_conn_db_test03() -> anyhow::Result<()> {
 
 
 #[tokio::test]
-async fn it_web_test01() {
+async fn it_web_test01() -> anyhow::Result<()> {
+    init();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    let pool = MySqlPool::connect(&database_url).await?;
 
+    let user = rust_inquire::models::auth::UserModel {
+        id: 1i64,
+        firstname: "test".to_string(),
+        lastname: "lastname".to_string(),
+        password: "pwd".to_string(),
+        email: "test@email.com".to_string(),
+    };
+
+    let result = utils::db::users::insert(user, &pool).await;
+    info!("{:?}", result);
+
+    Ok(())
+}
+
+
+#[tokio::test]
+async fn it_get_by_id_test01() -> anyhow::Result<()> {
+    init();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    let pool = MySqlPool::connect(&database_url).await?;
+
+    let id = 1u64;
+    let result = utils::db::users::get( id,&pool).await;
+    info!("{:?}", result);
+
+    Ok(())
+}
+
+#[tokio::test]
+async fn it_delete_by_id_test01() -> anyhow::Result<()> {
+    init();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    let pool = MySqlPool::connect(&database_url).await?;
+
+    let id = 1i64;
+    let result = utils::db::users::delete(id, &pool).await?;
+    info!("{:?}", result);
+
+    Ok(())
+}
+
+#[tokio::test]
+async fn it_get_all_test01() -> anyhow::Result<()> {
+    init();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    let pool = MySqlPool::connect(&database_url).await?;
+
+    let result = utils::db::users::get_all(&pool).await?;
+    info!("{:?}", result);
+    
+    Ok(())
 }

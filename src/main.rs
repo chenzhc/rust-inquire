@@ -7,7 +7,7 @@
 
 use std::{env, sync::Mutex};
 use actix_web::{web, App, HttpServer};
-use sqlx::PgPool;
+use sqlx::{MySqlPool, PgPool};
 use tracing::{debug, info, Level};
 use tracing_subscriber::FmtSubscriber;
 use crate::{api::{auth::get_auth_services, public::{echo, get_public_services, hello, manual_hello}}, models::state::AppState};
@@ -23,7 +23,7 @@ async fn main() -> std::io::Result<()>{
     
     let conn = env::var("DATABASE_URL").expect("the database url string was not set");
     info!("database url string is: {}", conn);
-    let pool = PgPool::connect(&conn).await.unwrap();
+    let pool = MySqlPool::connect(&conn).await.unwrap();
     info!("Connected to the database!");
 
     info!("test");

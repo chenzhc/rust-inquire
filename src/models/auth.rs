@@ -1,10 +1,12 @@
 
-#[derive(Debug, serde::Deserialize, serde::Serialize)]
+#[derive(Debug, serde::Deserialize, serde::Serialize, sqlx::FromRow,sqlx::Type)]
+#[sqlx(type_name = "interface_type")]
 pub struct UserModel {
     pub firstname: String,
     pub lastname: String,
     pub password: String,
     pub email: String,
+    pub id: i64,
 }
 
 #[derive(Debug, serde::Deserialize, serde::Serialize)]

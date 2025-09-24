@@ -7,7 +7,13 @@
 use dotenv::dotenv;
 use log::info;
 
+pub mod api;
 
+pub mod handlers;
+
+pub mod models;
+
+pub mod utils;
 
 // init log config
 pub fn init() {
