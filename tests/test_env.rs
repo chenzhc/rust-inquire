@@ -146,7 +146,7 @@ async fn it_web_test01() -> anyhow::Result<()> {
     let pool = MySqlPool::connect(&database_url).await?;
 
     let user = rust_inquire::models::auth::UserModel {
-        id: 1i64,
+        id: 1u32,
         firstname: "test".to_string(),
         lastname: "lastname".to_string(),
         password: "pwd".to_string(),
@@ -166,7 +166,7 @@ async fn it_get_by_id_test01() -> anyhow::Result<()> {
     let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
     let pool = MySqlPool::connect(&database_url).await?;
 
-    let id = 1u64;
+    let id = 2u64;
     let result = utils::db::users::get( id,&pool).await;
     info!("{:?}", result);
 

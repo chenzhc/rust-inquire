@@ -727,3 +727,13 @@ Stack backtrace:
 2025-09-24 23:17:09 INFO tests/test_env.rs:182 - ()
 2025-09-24 23:17:19 INFO tests/test_env.rs:194 - []
 2025-09-25 09:52:54 INFO tests\test_env.rs:241 - lines: 67
+2025-09-25 23:07:06 INFO tests/test_env.rs:171 - Err(Database(MySqlDatabaseError { code: Some("42S22"), number: 1054, message: "Unknown column '$1' in 'where clause'" }))
+2025-09-25 23:07:25 INFO tests/test_env.rs:171 - Err(RowNotFound)
+2025-09-25 23:08:29 INFO tests/test_env.rs:157 - Ok(())
+2025-09-25 23:08:49 INFO tests/test_env.rs:171 - Err(ColumnDecode { index: "\"id\"", source: "mismatched types; Rust type `i64` (as SQL type `BIGINT`) is not compatible with SQL type `BIGINT UNSIGNED`" })
+2025-09-25 23:12:28 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
+2025-09-25 23:12:32 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
+2025-09-25 23:13:23 INFO tests/test_env.rs:196 - [UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 }]
+2025-09-25 23:13:26 INFO tests/test_env.rs:196 - [UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 }]
+2025-09-25 23:14:03 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
+2025-09-25 23:14:06 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })

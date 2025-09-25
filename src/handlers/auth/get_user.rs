@@ -26,7 +26,7 @@ pub async fn get_user(path: web::Query<PathParams>) -> Result<impl Responder, Ht
         lastname: "lastname".to_string(),
         password: "test".to_string(),
         email: "test@email.com".to_string(),
-        id: 1i64,
+        id: 1u32,
     };
 
     Ok(web::Json(user))

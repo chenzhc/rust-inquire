@@ -16,9 +16,9 @@ pub mod users {
     }
 
     pub async fn get(id: u64, pool: &MySqlPool) -> anyhow::Result<UserModel> {
-        let result = sqlx::query_as_unchecked!(UserModel,
-                "select * from users where id = ?",
-            id)
+        let result = sqlx::query_as(
+                "select * from users where id = ?")
+                .bind(id)
             .fetch_one(pool)
             .await?;
         return Ok(result);
@@ -33,7 +33,7 @@ pub mod users {
     }
 
     pub async fn get_all(pool: &MySqlPool) -> anyhow::Result<Vec<UserModel>> {
-        let result = sqlx::query_as_unchecked!(UserModel,"select * from users")
+        let result = sqlx::query_as("select * from users")
             .fetch_all(pool)
             .await?;
 
