@@ -2235,6 +2235,7 @@ dependencies = [
  "sqlx",
  "time",
  "tokio",
+ "tokio-stream",
  "tracing",
  "tracing-subscriber 0.3.20",
 ]

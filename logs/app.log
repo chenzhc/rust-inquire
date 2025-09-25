@@ -726,3 +726,4 @@ Stack backtrace:
 2025-09-24 23:15:55 INFO tests/test_env.rs:194 - [UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 1 }]
 2025-09-24 23:17:09 INFO tests/test_env.rs:182 - ()
 2025-09-24 23:17:19 INFO tests/test_env.rs:194 - []
+2025-09-25 09:52:54 INFO tests\test_env.rs:241 - lines: 67
