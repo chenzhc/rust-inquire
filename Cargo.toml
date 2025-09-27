@@ -28,6 +28,8 @@ tracing-subscriber = "0.3.20"
 sqlx = { version = "0.8.6", features = ["derive","macros","uuid","runtime-tokio","runtime-tokio-native-tls", "postgres", "mysql", "sqlite","chrono","bigdecimal","json"] }
 anyhow = "1.0.100"
 tokio-stream = "0.1.17"
+uuid = { version = "1.18.1", features = ["v4"] }
+jsonwebtoken = "9.3.1"
 
 
 

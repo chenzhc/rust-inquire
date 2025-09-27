@@ -737,3 +737,69 @@ Stack backtrace:
 2025-09-25 23:13:26 INFO tests/test_env.rs:196 - [UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 }]
 2025-09-25 23:14:03 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
 2025-09-25 23:14:06 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
+2025-09-26 21:10:27 INFO tests/test_env.rs:196 - [UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 }]
+2025-09-26 21:14:13 INFO tests/test_env.rs:171 - Ok(UserModel { firstname: "test", lastname: "lastname", password: "pwd", email: "test@email.com", id: 2 })
+2025-09-27 09:50:16 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 09:50:16 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 09:50:16 INFO src/main.rs:34 - test
+2025-09-27 10:00:09 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:00:09 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:00:09 INFO src/main.rs:34 - test
+2025-09-27 10:00:29 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:00:29 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:00:29 INFO src/main.rs:34 - test
+2025-09-27 10:00:38 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:00:38 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:00:38 INFO src/main.rs:34 - test
+2025-09-27 10:01:43 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:01:43 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:01:43 INFO src/main.rs:34 - test
+2025-09-27 10:02:49 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:02:49 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:02:49 INFO src/main.rs:34 - test
+2025-09-27 10:05:23 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:05:23 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:05:23 INFO src/main.rs:34 - test
+2025-09-27 10:05:34 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:05:34 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:05:34 INFO src/main.rs:34 - test
+2025-09-27 10:08:24 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:08:24 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:08:24 INFO src/main.rs:34 - test
+2025-09-27 10:55:25 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:55:25 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:55:25 INFO src/main.rs:34 - test
+2025-09-27 10:55:35 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 10:55:35 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 10:55:35 INFO src/main.rs:34 - test
+2025-09-27 11:44:00 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 11:44:00 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 11:44:00 INFO src/main.rs:34 - test
+2025-09-27 11:44:20 INFO src/handlers/users/add_user.rs:16 - error returned from database: 1406 (22001): Data too long for column 'id' at row 1
+
+Caused by:
+    1406 (22001): Data too long for column 'id' at row 1
+2025-09-27 20:36:44 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 20:36:44 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 20:36:44 INFO src/main.rs:34 - test
+2025-09-27 20:48:31 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 20:48:31 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 20:48:31 INFO src/main.rs:34 - test
+2025-09-27 20:48:47 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 20:48:47 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 20:48:47 INFO src/main.rs:34 - test
+2025-09-27 21:25:54 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5NjE0fQ.-8frJ_o5EG1ZOnwB5J-a_Ol-P9sWJ2lpkco0H1DO0S4
+2025-09-27 21:26:41 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5NjYxfQ.b3C_PMUAZ8JrshdX-Ymd3sDaVngCF6KxY35JZcPicbk
+2025-09-27 21:26:41 INFO tests/test_env.rs:288 - false
+2025-09-27 21:27:43 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5NzIzfQ.p03jdx0EYzX4_XKWa0R0Udoayt-7z22TNPvit7Op0AI
+2025-09-27 21:27:43 INFO tests/test_env.rs:288 - false
+2025-09-27 21:28:56 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5Nzk2fQ.oaHKY8MpSHPiIcuprlP4WU2mYVl-MzmhR64e9QIGZrE
+2025-09-27 21:28:56 INFO tests/test_env.rs:288 - true
+2025-09-27 21:29:09 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5ODA5fQ.aECszdXJmDoyDs4DbIU7gOkMIshmlfjhJED_aTDaThs
+2025-09-27 21:29:09 INFO tests/test_env.rs:288 - true
+2025-09-27 21:32:02 INFO tests/test_env.rs:285 - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21fY2xhaW0iOnsiZmlyc3RuYW1lIjoiZmlyc3RuYW1lIiwibGFzdG5hbWUiOiJsYXN0bmFtZSIsInBhc3N3b3JkIjoicGFzc3dvcmQiLCJlbWFpbCI6ImVtYWlsIiwiaWQiOiJpZCJ9LCJpc3MiOiJodHRwOi8vZ2l0aHViLmNvbS90ZXN0Iiwic3ViIjoidGVzdDAxIiwiYXVkIjoidGVzdDAyIiwiZXhwIjoxNzU4OTc5OTgyfQ.Rrd4UD7usNmKo8b4x3fS3XfkF_XdOx9q5AivlWTqYFQ
+2025-09-27 21:32:02 INFO tests/test_env.rs:288 - true
+2025-09-27 21:39:01 INFO tests/test_env.rs:302 - UserModel { firstname: "etienne", lastname: "tonie", password: "pwdtest", email: "tonieetenne@email.com", id: "1fb48893-4862-4d0c-9a4b-5f37d99b37dd" }
+2025-09-27 21:52:53 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-27 21:52:53 INFO src/main.rs:32 - Connected to the database!
+2025-09-27 21:52:53 INFO src/main.rs:34 - test

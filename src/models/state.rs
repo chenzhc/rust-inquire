@@ -1,9 +1,11 @@
 use std::sync::Mutex;
 
+use sqlx::MySqlPool;
 
-#[derive(Debug, serde::Serialize, serde::Deserialize)]
+
+#[derive(Debug)]
 pub struct AppState {
-    pub state: Mutex<String>,
+    pub pool: Mutex<MySqlPool>,
 }
 
 

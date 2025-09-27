@@ -5,10 +5,10 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::{env, sync::{Arc}};
-use actix_web::rt::task;
+use std::{env, f64::consts::E, sync::Arc};
+use actix_web::{rt::task, web::to};
 use log::info;
-use rust_inquire::{init, utils};
+use rust_inquire::{init, models::auth::UserModel, utils::{self, jwt}};
 use sqlx::{database, mysql::MySqlPool, Executor};
 use tokio::{fs::{self, File}, io::{AsyncReadExt, BufReader}, stream, sync::{mpsc, Mutex}, task::JoinSet};
 use tokio_stream::{self, StreamExt};
@@ -145,15 +145,16 @@ async fn it_web_test01() -> anyhow::Result<()> {
     let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
     let pool = MySqlPool::connect(&database_url).await?;
 
+    let id = uuid::Uuid::new_v4().to_string();
     let user = rust_inquire::models::auth::UserModel {
-        id: 1u32,
+        id: "test".to_string(),
         firstname: "test".to_string(),
         lastname: "lastname".to_string(),
         password: "pwd".to_string(),
         email: "test@email.com".to_string(),
     };
 
-    let result = utils::db::users::insert(user, &pool).await;
+    let result = utils::db::users::insert(user, &pool, &id).await;
     info!("{:?}", result);
 
     Ok(())
@@ -167,7 +168,7 @@ async fn it_get_by_id_test01() -> anyhow::Result<()> {
     let pool = MySqlPool::connect(&database_url).await?;
 
     let id = 2u64;
-    let result = utils::db::users::get( id,&pool).await;
+    let result = utils::db::users::get( id.to_string(), &pool).await;
     info!("{:?}", result);
 
     Ok(())
@@ -180,7 +181,7 @@ async fn it_delete_by_id_test01() -> anyhow::Result<()> {
     let pool = MySqlPool::connect(&database_url).await?;
 
     let id = 1i64;
-    let result = utils::db::users::delete(id, &pool).await?;
+    let result = utils::db::users::delete(id.to_string(), &pool).await?;
     info!("{:?}", result);
 
     Ok(())
@@ -266,3 +267,40 @@ async fn it_copy_test01() -> anyhow::Result<()> {
     Ok(())
 }
 
+
+
+#[test]
+fn it_jwt_test01() {
+    init();
+
+    let user = UserModel {
+        firstname: "firstname".to_string(),
+        lastname: "lastname".to_string(),
+        email: "email".to_string(),
+        password: "password".to_string(),
+        id: "id".to_string(),
+    };
+
+    let token = jwt::encode(user);
+    info!("{}", token);
+
+    let rs_val = jwt::decode(&token);
+    info!("{}", rs_val);
+
+
+}
+
+#[tokio::test]
+async fn it_get_by_email_test01() -> anyhow::Result<()> {
+    init();
+    let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+    let pool = MySqlPool::connect(&database_url).await?;
+
+    let email = "tonieetenne@email.com".to_string();
+    let res = utils::db::users::get_by_email(email, &pool).await;
+
+    info!("{:?}", res.unwrap());
+
+
+    Ok(())
+}

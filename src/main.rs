@@ -7,7 +7,7 @@
 
 use std::{env, sync::Mutex};
 use actix_web::{web, App, HttpServer};
-use sqlx::{MySqlPool, PgPool};
+use sqlx::{mysql::MySqlPoolOptions, MySqlPool, PgPool};
 use tracing::{debug, info, Level};
 use tracing_subscriber::FmtSubscriber;
 use crate::{api::{auth::get_auth_services, public::{echo, get_public_services, hello, manual_hello}}, models::state::AppState};
@@ -23,7 +23,12 @@ async fn main() -> std::io::Result<()>{
     
     let conn = env::var("DATABASE_URL").expect("the database url string was not set");
     info!("database url string is: {}", conn);
-    let pool = MySqlPool::connect(&conn).await.unwrap();
+    let pool = MySqlPoolOptions::new()
+        .max_connections(5)
+        .connect(&conn)
+        .await
+        .expect("could not exstablish a connection to the database");
+        // MySqlPool::connect(&conn).await.unwrap();
     info!("Connected to the database!");
 
     info!("test");
@@ -33,8 +38,9 @@ async fn main() -> std::io::Result<()>{
     let _ = tracing::subscriber::set_global_default(subscriber)
         .expect("error setting global subscriber for tracing");
 
+
     let data = web::Data::new(AppState{
-        state: Mutex::new(String::from("init-state"))
+        pool: Mutex::new(pool),
     });
     info!("starting server at port: {}", 9000);
     debug!("test");
