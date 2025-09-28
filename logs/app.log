@@ -803,3 +803,69 @@ Caused by:
 2025-09-27 21:52:53 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
 2025-09-27 21:52:53 INFO src/main.rs:32 - Connected to the database!
 2025-09-27 21:52:53 INFO src/main.rs:34 - test
+2025-09-28 22:36:43 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:36:43 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:36:43 INFO src/main.rs:34 - test
+2025-09-28 22:39:54 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:39:54 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:39:54 INFO src/main.rs:34 - test
+2025-09-28 22:41:30 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:41:30 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:41:30 INFO src/main.rs:34 - test
+2025-09-28 22:41:39 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:41:39 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:41:39 INFO src/main.rs:34 - test
+2025-09-28 22:41:52 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:41:52 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:41:52 INFO src/main.rs:34 - test
+2025-09-28 22:42:41 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:42:41 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:42:41 INFO src/main.rs:34 - test
+2025-09-28 22:43:01 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:43:01 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:43:01 INFO src/main.rs:34 - test
+2025-09-28 22:43:24 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:43:24 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:43:24 INFO src/main.rs:34 - test
+2025-09-28 22:44:01 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:44:01 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:44:01 INFO src/main.rs:34 - test
+2025-09-28 22:44:10 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:44:10 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:44:10 INFO src/main.rs:34 - test
+2025-09-28 22:44:37 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:44:37 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:44:37 INFO src/main.rs:34 - test
+2025-09-28 22:45:09 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:45:09 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:45:09 INFO src/main.rs:34 - test
+2025-09-28 22:45:51 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:45:51 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:45:51 INFO src/main.rs:34 - test
+2025-09-28 22:46:51 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:46:51 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:46:51 INFO src/main.rs:34 - test
+2025-09-28 22:46:57 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:46:57 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:46:57 INFO src/main.rs:34 - test
+2025-09-28 22:47:04 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:47:04 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:47:04 INFO src/main.rs:34 - test
+2025-09-28 22:47:12 INFO src/main.rs:25 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:47:12 INFO src/main.rs:32 - Connected to the database!
+2025-09-28 22:47:12 INFO src/main.rs:34 - test
+2025-09-28 22:47:43 INFO src/main.rs:26 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:47:43 INFO src/main.rs:33 - Connected to the database!
+2025-09-28 22:47:43 INFO src/main.rs:35 - test
+2025-09-28 22:48:56 INFO src/main.rs:26 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 22:48:56 INFO src/main.rs:33 - Connected to the database!
+2025-09-28 22:48:56 INFO src/main.rs:35 - test
+2025-09-28 23:00:25 INFO src/main.rs:26 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 23:00:25 INFO src/main.rs:33 - Connected to the database!
+2025-09-28 23:00:25 INFO src/main.rs:35 - test
+2025-09-28 23:00:34 INFO src/main.rs:26 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 23:00:34 INFO src/main.rs:33 - Connected to the database!
+2025-09-28 23:00:34 INFO src/main.rs:35 - test
+2025-09-28 23:00:43 INFO src/main.rs:26 - database url string is: mysql://root:123456@localhost:3306/ry-vue
+2025-09-28 23:00:43 INFO src/main.rs:33 - Connected to the database!
+2025-09-28 23:00:43 INFO src/main.rs:35 - test

@@ -15,6 +15,7 @@ mod api;
 mod handlers;
 mod models;
 mod utils;
+mod middleware;
 
 
 #[actix_web::main]
